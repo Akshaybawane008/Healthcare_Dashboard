@@ -1,6 +1,6 @@
 import React from "react";
 import { Plus, Bell } from "lucide-react";
-import Avtar from "../assets/Avatar.png"
+import Avtar from "../../src/assets/Avatar.png"
 import "../styles/components/Header.css";
 
 const Header = () => {
