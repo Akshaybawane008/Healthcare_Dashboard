@@ -7,7 +7,7 @@ const Header = () => {
     <header className="header">
       <div className="search" >
         <h2 className="sidebar-title">
-        Health<span className="accent">caree.</span>
+        Health<span className="accent">care.</span>
       </h2>
       <div className="search-box">
         <input type="text" placeholder="Search" disabled />
@@ -15,7 +15,7 @@ const Header = () => {
       </div>
       </div>
       <div className="header-actions">
-        <img src=".\src\assets\avatar.png" alt="User" className="avatar" />
+        <img src="./src/assets/avatar.png" alt="User" className="avatar" />
         <button className="add-btn">
           <Plus size={20} />
         </button>
