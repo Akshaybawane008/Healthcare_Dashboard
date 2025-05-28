@@ -20,14 +20,14 @@ export const healthCards = [
     status: 'OK',
     date: 'Date: 23 May 2025',
     image: '../../src/assets/teeth.png',
-     color: "#069C56"
+    color: "#069C56"
   },
   {
     title: 'Bone',
     status: 'OK',
     date: 'Date: 21 May 2025',
     image: '../../src/assets/bons.png',
-     color: "#FF681E" 
+    color: "#FF681E"
   }
 ]
 
