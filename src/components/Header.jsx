@@ -7,7 +7,7 @@ const Header = () => {
     <header className="header">
       <div className="search" >
         <h2 className="sidebar-title">
-        Health<span className="accent">care.</span>
+        Health<span className="accent">caree.</span>
       </h2>
       <div className="search-box">
         <input type="text" placeholder="Search" disabled />
