@@ -1,12 +1,12 @@
 import React from "react";
-
+import anatony from "../assets/anatony1.png"
 import "../styles/components/AnatomySection.css";
 
 const AnatomySection = () => {
   return (
     <div className="anatomy-section">
       <img
-        src=".\src\assets\anatony1.png"
+        src={anatony}
         alt="Anatomy"
         className="anatomy-img"
       />
