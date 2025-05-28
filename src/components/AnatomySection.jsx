@@ -1,5 +1,5 @@
 import React from "react";
-import anatony from "../assets/anatony1.png"
+import anatony from "../../src/assets/anatony1.png"
 import "../styles/components/AnatomySection.css";
 
 const AnatomySection = () => {
