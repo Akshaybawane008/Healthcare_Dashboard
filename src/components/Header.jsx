@@ -1,6 +1,6 @@
 import React from "react";
 import { Plus, Bell } from "lucide-react";
-import avtar from "../../src/assets/avatar.png"
+import Avtar from "../../src/assets/Avatar.png"
 import "../styles/components/Header.css";
 
 const Header = () => {
@@ -16,7 +16,7 @@ const Header = () => {
       </div>
       </div>
       <div className="header-actions">
-        <img src={avtar} alt="User" className="avatar" />
+        <img src={Avtar} alt="User" className="avatar" />
         <button className="add-btn">
           <Plus size={20} />
         </button>
