@@ -7,5 +7,6 @@ export const navLinks = [
   { name: "Chat", icon: "MessageCircle" },
   { name: "Support", icon: "LifeBuoy" },
   { name: "Setting", icon: "Settings" }
+  
 ]
 
