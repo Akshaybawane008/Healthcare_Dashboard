@@ -15,7 +15,7 @@ const Header = () => {
       </div>
       </div>
       <div className="header-actions">
-        <img src="./assets/avatar.png" alt="User" className="avatar" />
+        <img src="./src/assets/avatar.png" alt="User" className="avatar" />
         <button className="add-btn">
           <Plus size={20} />
         </button>
