@@ -16,7 +16,7 @@ const HealthStatusCards = () => {
       {healthCards.map((card, idx) => (
         <div key={idx} className="health-card">
           <div className="bodypartsimg">
-            <img src={healthCards.Image} alt={card.title} width={40} height={40} />
+            <img src={card.Image} alt={card.title} width={40} height={40} />
             <h4>{card.title}</h4>
           </div>
           <div className="card-content">

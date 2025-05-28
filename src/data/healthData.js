@@ -1,4 +1,4 @@
-import Bons from "./assets/Bons.png"
+import Bons from "../assets/Bons.png"
 import Lungs from "../assets/Lungs.png"
 import Teeth from "../assets/Teeth.png"
 
