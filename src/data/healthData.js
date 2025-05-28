@@ -12,21 +12,21 @@ export const healthCards = [
     title: 'Lungs',
     status: 'Issue',
     date: 'Date: 24 May 2025',
-    image: '/assets/Lungs.png',
+    image: '../../src/assets/Lungs.png',
     color: "#D3212C"
   },
   {
     title: 'Teeth',
     status: 'OK',
     date: 'Date: 23 May 2025',
-    image: '/assets/Teeth.png',
+    image: '../../src/assets/Teeth.png',
     color: "#069C56"
   },
   {
     title: 'Bone',
     status: 'OK',
     date: 'Date: 21 May 2025',
-    image: '/assets/Bons.png',
+    image: '../../src/assets/Bons.png',
     color: "#FF681E"
   }
 ]
