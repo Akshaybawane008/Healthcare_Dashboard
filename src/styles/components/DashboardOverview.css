@@ -1,0 +1,19 @@
+.overview {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.dashboard_text{
+  text-align: center;
+  align-items: center;
+}
+.dashboard_text h1{
+color: rgb(6, 6, 69);
+}
+
+.dashboard_text p{
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: rgb(6, 6, 69);
+}

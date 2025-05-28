@@ -1,0 +1,126 @@
+.calendar-view {
+  padding: 24px;
+  background-color: #f9fafb;
+  font-family: sans-serif;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.calendar-header h3 {
+  margin: 0;
+  padding-left: 10px;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.arrows span {
+  font-size: 18px;
+  margin: 0 6px;
+  cursor: pointer;
+  color: #4f46e5;
+}
+
+.calendar-days {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #334155;
+}
+
+.weekday {
+  width: 14.28%;
+  text-align: center;
+}
+
+.calendar-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.calendar-day {
+  background: white;
+  padding: 12px;
+  width: 14.28%;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calendar-day.selected {
+  background-color: #e0e7ff;
+}
+
+.calendar-day.inactive {
+  opacity: 0.4;
+}
+
+.day-number {
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #1e293b;
+}
+
+.time-slots {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+}
+
+.time-slot {
+  background-color: #f1f5f9;
+  padding: 4px 0;
+  border-radius: 10px;
+  font-size: 13px;
+  text-align: center;
+  color: #1e293b;
+}
+
+.time-slot.active-slot {
+  background-color: #c7d2fe;
+  font-weight: 600;
+}
+
+.calendar-cards {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.calendar-card {
+  flex: 1;
+  border-radius: 20px;
+  padding: 16px;
+  color: white;
+}
+
+.calendar-card.dentist {
+  background-color: #4f46e5;
+}
+
+.calendar-card.physio {
+  background-color: #e6e9fd;
+  color: #1e293b;
+}
+
+.calendar-card h4 {
+  margin: 0 0 6px;
+}
+
+.calendar-card p {
+  margin: 0;
+  font-weight: 500;
+}
+
+.calendar-card span {
+  font-size: 13px;
+  display: block;
+  margin-top: 4px;
+}

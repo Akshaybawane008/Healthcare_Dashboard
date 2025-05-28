@@ -1,0 +1,32 @@
+.sidebar {
+  width: 220px;
+  padding: 20px;
+  border-right: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sidebar-nav .nav-section {
+  font-size: 0.85rem;
+  color: #999;
+  margin: 10px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 4px;
+  cursor: pointer;
+  border-radius: 8px;
+  color: #333;
+  transition: 0.2s;
+}
+
+.nav-item:hover {
+  background-color: #f1f5f9;
+}
+
+.sidebar-bottom {
+  padding-top: 120%;
+}
