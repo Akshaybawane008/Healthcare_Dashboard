@@ -1,5 +1,3 @@
-// /src/components/SimpleAppointmentCard.jsx
-
 import React from 'react'
 import '../styles/components/SimpleAppointmentCard.css'
 

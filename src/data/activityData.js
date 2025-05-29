@@ -1,5 +1,4 @@
 
-
 export const activityData = [
   [50, 30, 60],
   [70, 40, 20],
